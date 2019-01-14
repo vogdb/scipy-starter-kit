@@ -14,7 +14,7 @@ class YourModuleTestCase(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_root_endpoint(self):
+    def test_module(self):
         self.assertEqual(your_module.numpy_version(), np.__version__)
         self.assertEqual(your_module.scipy_version(), scipy.__version__)
 
